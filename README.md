@@ -66,9 +66,7 @@ Note: `listening/listener.py` and `listening/state_manager.py` optionally import
 
 ## Dependencies
 
-There's no `requirements.txt` or `pyproject.toml` in the repo yet, so install the following manually. Grouped by whether the code always needs them or only needs them for a specific feature:
 
-**Core (always required)**
 ```
 pip install faster-whisper numpy rapidfuzz requests python-dotenv webrtcvad mcp anyio
 ```
@@ -116,10 +114,4 @@ For debugging, `python -m jarvis.main --smoke-test` runs a smoke test, and setti
 
 Full defaults live in `jarvis/config.py`.
 
-## License
 
-No `LICENSE` file is currently included in this repository. If you intend for others to use or contribute to this project, consider adding one (e.g. MIT, Apache-2.0).
-
-## Contributing
-
-There's no `CONTRIBUTING.md` yet — if you'd like to accept contributions, the `*.spec.md` files in each subpackage are a good on-ramp for describing expected behavior before opening a PR.
