@@ -2,7 +2,6 @@
 
 A local-first, modular voice assistant. JARVIS listens continuously, transcribes speech, detects when it's being addressed, and answers using a local LLM (via Ollama or any OpenAI-compatible server) with tool-use, persistent memory, and text-to-speech — all running on your own machine.
 
-> **Note on this README:** the repository currently ships only the `jarvis/` Python package (no `README.md`, `requirements.txt`, or `LICENSE` yet). This document was written by reading the source, so it describes what the code actually does rather than a wish list. See [Dependencies](#dependencies) and [License](#license) below for what's missing and what you'll need to add yourself.
 
 ## How it works
 
